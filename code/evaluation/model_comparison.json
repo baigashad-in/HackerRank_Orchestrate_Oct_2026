@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-10-25T10:59:03Z",
+  "cases": 518,
+  "distinct_request_texts": 375,
+  "rules_seconds": 4.1,
+  "providers": {
+    "gemini": {
+      "text_model": "gemini-3.5-flash-lite",
+      "vision_model": null,
+      "calls": 16,
+      "failures": 0,
+      "input_tokens": 19699,
+      "output_tokens": 14688,
+      "estimated_cost_usd": 0.04263,
+      "error_counts": {},
+      "rate_limit_waits": 0,
+      "tokens_per_minute_limits": {},
+      "seconds": 66.5,
+      "screenshot_source": {
+        "evidence_04": "cached",
+        "evidence_09": "cached",
+        "evidence_14": "cached",
+        "evidence_19": "cached",
+        "evidence_23": "cached",
+        "evidence_28": "cached",
+        "evidence_32": "cached",
+        "evidence_37": "cached",
+        "evidence_42": "cached",
+        "evidence_46": "cached",
+        "evidence_60": "cached"
+      },
+      "complete": true,
+      "problems": [],
+      "classification": {
+        "classified": 375,
+        "agree_with_rules": 375,
+        "disagree_with_rules": 0
+      },
+      "screenshots_same_as_ocr": 11,
+      "screenshots_compared": 11,
+      "answers": {
+        "cases_differing": [],
+        "status_differing": [],
+        "steps_matched": 3251,
+        "steps": 3251
+      }
+    },
+    "groq": {
+      "text_model": "openai/gpt-oss-120b",
+      "vision_model": "qwen/qwen3.8-27b",
+      "calls": 40,
+      "failures": 13,
+      "input_tokens": 41487,
+      "output_tokens": 20234,
+      "estimated_cost_usd": 0.023536,
+      "error_counts": {
+        "rate_limited": 13
+      },
+      "rate_limit_waits": 22,
+      "tokens_per_minute_limits": {
+        "openai/gpt-oss-120b": 8000,
+        "qwen/qwen3.8-27b": 1000
+      },
+      "seconds": 1045.3,
+      "screenshot_source": {
+        "evidence_04": "fresh",
+        "evidence_09": "fresh",
+        "evidence_14": "fresh",
+        "evidence_19": "fresh",
+        "evidence_23": "fresh",
+        "evidence_28": "fresh",
+        "evidence_32": "fresh",
+        "evidence_37": "fresh",
+        "evidence_42": "fresh",
+        "evidence_46": "fresh",
+        "evidence_60": "fresh"
+      },
+      "complete": true,
+      "problems": [],
+      "classification": {
+        "classified": 375,
+        "agree_with_rules": 375,
+        "disagree_with_rules": 0
+      },
+      "screenshots_same_as_ocr": 11,
+      "screenshots_compared": 11,
+      "answers": {
+        "cases_differing": [],
+        "status_differing": [],
+        "steps_matched": 3251,
+        "steps": 3251
+      }
+    },
+    "anthropic": {
+      "skipped": "no API key in the environment or .env"
+    }
+  },
+  "classification_disagreements": []
+}

@@ -1,0 +1,86 @@
+{
+  "requests_file": "C:\\Users\\asus\\Documents\\Job\\Hackathons\\Hackerrank\\2026 October\\work\\hackerrank-orchestrate-october26\\dataset\\deletion_requests.csv",
+  "cases": 518,
+  "elapsed_seconds": 903.68,
+  "screenshots": {
+    "total": 11,
+    "unread": 0,
+    "model": 11,
+    "ocr": 0,
+    "cached": 0
+  },
+  "warnings": [],
+  "model_layer": {
+    "enabled": true,
+    "status": "ok",
+    "provider": "gemini",
+    "text_model": "gemini-3.5-flash-lite",
+    "vision_model": "gemini-3.8-flash",
+    "classify_mode": "all",
+    "batch_size": 25,
+    "min_interval_s": 4.0,
+    "calls": 28,
+    "failures": 1,
+    "input_tokens": 32507,
+    "output_tokens": 28035,
+    "total_tokens": 60542,
+    "estimated_cost_usd": 0.102416,
+    "classification_agreement": {
+      "agree": 517,
+      "disagree": 0,
+      "rules_only": 0,
+      "model_only": 1,
+      "unclassified": 0
+    },
+    "disagreements": [],
+    "model_selection": [
+      {
+        "purpose": "text",
+        "model": "gemini-3.5-flash-lite",
+        "outcome": "selected"
+      },
+      {
+        "purpose": "vision",
+        "model": "gemini-3.8-flash",
+        "outcome": "selected"
+      }
+    ],
+    "unusable_models": {},
+    "error_counts": {
+      "transient": 1
+    },
+    "errors": [
+      {
+        "model": "gemini-3.8-flash",
+        "purpose": "screenshot backup_restore_console_20260429.png",
+        "kind": "transient",
+        "status": 503,
+        "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      }
+    ],
+    "models": {
+      "gemini-3.5-flash-lite": {
+        "provider": "gemini",
+        "calls": 16,
+        "failures": 0,
+        "input_tokens": 19699,
+        "output_tokens": 14585,
+        "total_tokens": 34284,
+        "price_in_per_mtok": 0.3,
+        "price_out_per_mtok": 2.5,
+        "estimated_cost_usd": 0.042372
+      },
+      "gemini-3.8-flash": {
+        "provider": "gemini",
+        "calls": 12,
+        "failures": 1,
+        "input_tokens": 12808,
+        "output_tokens": 13450,
+        "total_tokens": 26258,
+        "price_in_per_mtok": 0.75,
+        "price_out_per_mtok": 3.75,
+        "estimated_cost_usd": 0.060043
+      }
+    }
+  }
+}

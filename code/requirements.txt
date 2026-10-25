@@ -1,0 +1,4 @@
+# Optional helpers for the deletion-audit agent (the core engine needs only the Python standard library).
+pdfplumber>=0.10      # text of the four PDF documents (alternatives: pypdf, or the pdftotext CLI)
+pytesseract>=0.3.10   # screenshot OCR; also needs the tesseract binary (https://github.com/tesseract-ocr/tesseract)
+pillow>=9.0           # image preprocessing for OCR

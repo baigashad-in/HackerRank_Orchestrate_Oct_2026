@@ -1,0 +1,387 @@
+{
+  "reference": {
+    "cases": 32,
+    "case_status_accuracy": 1.0,
+    "exact_case_accuracy": 0.90625,
+    "sequence_accuracy": 0.90625,
+    "step_precision": 1.0,
+    "step_recall": 0.9844559585492227,
+    "step_f1": 0.9921671018276762,
+    "steps_gold": 193,
+    "steps_pred": 190,
+    "steps_matched": 190,
+    "field_accuracy": {
+      "phase": 1.0,
+      "system_id": 1.0,
+      "resource_id": 1.0,
+      "operation": 1.0,
+      "state": 1.0,
+      "evidence_id": 1.0
+    },
+    "confusion": {
+      "COMPLETE->COMPLETE": 10,
+      "INCOMPLETE->INCOMPLETE": 22
+    },
+    "per_case": [
+      [
+        "case_01",
+        "COMPLETE",
+        "COMPLETE",
+        1,
+        1,
+        1,
+        true
+      ],
+      [
+        "case_02",
+        "COMPLETE",
+        "COMPLETE",
+        1,
+        1,
+        1,
+        true
+      ],
+      [
+        "case_03",
+        "COMPLETE",
+        "COMPLETE",
+        3,
+        3,
+        3,
+        true
+      ],
+      [
+        "case_04",
+        "COMPLETE",
+        "COMPLETE",
+        2,
+        1,
+        1,
+        false
+      ],
+      [
+        "case_05",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        3,
+        3,
+        3,
+        true
+      ],
+      [
+        "case_06",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        4,
+        4,
+        4,
+        true
+      ],
+      [
+        "case_07",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        4,
+        4,
+        4,
+        true
+      ],
+      [
+        "case_08",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        4,
+        4,
+        4,
+        true
+      ],
+      [
+        "case_09",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        5,
+        5,
+        5,
+        true
+      ],
+      [
+        "case_10",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        4,
+        4,
+        4,
+        true
+      ],
+      [
+        "case_11",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        14,
+        14,
+        14,
+        true
+      ],
+      [
+        "case_12",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        5,
+        5,
+        5,
+        true
+      ],
+      [
+        "case_13",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        8,
+        8,
+        8,
+        true
+      ],
+      [
+        "case_14",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        5,
+        5,
+        5,
+        true
+      ],
+      [
+        "case_15",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        5,
+        5,
+        5,
+        true
+      ],
+      [
+        "case_16",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        7,
+        7,
+        7,
+        true
+      ],
+      [
+        "case_17",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        5,
+        5,
+        5,
+        true
+      ],
+      [
+        "case_18",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        14,
+        13,
+        13,
+        false
+      ],
+      [
+        "case_19",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        8,
+        8,
+        8,
+        true
+      ],
+      [
+        "case_20",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        8,
+        7,
+        7,
+        false
+      ],
+      [
+        "case_21",
+        "COMPLETE",
+        "COMPLETE",
+        3,
+        3,
+        3,
+        true
+      ],
+      [
+        "case_22",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        8,
+        8,
+        8,
+        true
+      ],
+      [
+        "case_23",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        8,
+        8,
+        8,
+        true
+      ],
+      [
+        "case_24",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        7,
+        7,
+        7,
+        true
+      ],
+      [
+        "case_25",
+        "COMPLETE",
+        "COMPLETE",
+        3,
+        3,
+        3,
+        true
+      ],
+      [
+        "case_26",
+        "COMPLETE",
+        "COMPLETE",
+        6,
+        6,
+        6,
+        true
+      ],
+      [
+        "case_27",
+        "COMPLETE",
+        "COMPLETE",
+        6,
+        6,
+        6,
+        true
+      ],
+      [
+        "case_28",
+        "COMPLETE",
+        "COMPLETE",
+        6,
+        6,
+        6,
+        true
+      ],
+      [
+        "case_29",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        14,
+        14,
+        14,
+        true
+      ],
+      [
+        "case_30",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        14,
+        14,
+        14,
+        true
+      ],
+      [
+        "case_31",
+        "COMPLETE",
+        "COMPLETE",
+        3,
+        3,
+        3,
+        true
+      ],
+      [
+        "case_32",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        5,
+        5,
+        5,
+        true
+      ]
+    ]
+  },
+  "custom": {
+    "cases": 5,
+    "case_status_accuracy": 1.0,
+    "exact_case_accuracy": 1.0,
+    "sequence_accuracy": 1.0,
+    "step_precision": 1.0,
+    "step_recall": 1.0,
+    "step_f1": 1.0,
+    "steps_gold": 25,
+    "steps_pred": 25,
+    "steps_matched": 25,
+    "field_accuracy": {
+      "phase": 1.0,
+      "system_id": 1.0,
+      "resource_id": 1.0,
+      "operation": 1.0,
+      "state": 1.0,
+      "evidence_id": 1.0
+    },
+    "confusion": {
+      "INCOMPLETE->INCOMPLETE": 4,
+      "NOT_APPLICABLE->NOT_APPLICABLE": 1
+    },
+    "per_case": [
+      [
+        "custom_01",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE",
+        0,
+        0,
+        0,
+        true
+      ],
+      [
+        "custom_02",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        5,
+        5,
+        5,
+        true
+      ],
+      [
+        "custom_03",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        8,
+        8,
+        8,
+        true
+      ],
+      [
+        "custom_04",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        7,
+        7,
+        7,
+        true
+      ],
+      [
+        "custom_05",
+        "INCOMPLETE",
+        "INCOMPLETE",
+        5,
+        5,
+        5,
+        true
+      ]
+    ]
+  }
+}

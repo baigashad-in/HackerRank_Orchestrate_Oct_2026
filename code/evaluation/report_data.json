@@ -1,0 +1,242 @@
+{
+  "reference": {
+    "cases": 32,
+    "case_status_accuracy": 1.0,
+    "exact_case_accuracy": 0.90625,
+    "sequence_accuracy": 0.90625,
+    "step_precision": 1.0,
+    "step_recall": 0.9844559585492227,
+    "step_f1": 0.9921671018276762,
+    "steps_gold": 193,
+    "steps_pred": 190,
+    "steps_matched": 190,
+    "field_accuracy": {
+      "phase": 1.0,
+      "system_id": 1.0,
+      "resource_id": 1.0,
+      "operation": 1.0,
+      "state": 1.0,
+      "evidence_id": 1.0
+    },
+    "confusion": {
+      "COMPLETE->COMPLETE": 10,
+      "INCOMPLETE->INCOMPLETE": 22
+    }
+  },
+  "reference_missed": [
+    [
+      "case_04",
+      "account_004"
+    ],
+    [
+      "case_18",
+      "audit_record_6645"
+    ],
+    [
+      "case_20",
+      "audit_record_5569"
+    ]
+  ],
+  "custom": {
+    "cases": 5,
+    "case_status_accuracy": 1.0,
+    "exact_case_accuracy": 1.0,
+    "sequence_accuracy": 1.0,
+    "step_precision": 1.0,
+    "step_recall": 1.0,
+    "step_f1": 1.0,
+    "steps_gold": 25,
+    "steps_pred": 25,
+    "steps_matched": 25,
+    "field_accuracy": {
+      "phase": 1.0,
+      "system_id": 1.0,
+      "resource_id": 1.0,
+      "operation": 1.0,
+      "state": 1.0,
+      "evidence_id": 1.0
+    },
+    "confusion": {
+      "INCOMPLETE->INCOMPLETE": 4,
+      "NOT_APPLICABLE->NOT_APPLICABLE": 1
+    }
+  },
+  "full_run": {
+    "same_as_submitted": true,
+    "validator": "OK: 518 rows, header and ordering valid, all steps well-formed, evidence ids resolve and respect audit_at (1 record-level citations noted)",
+    "statuses": {
+      "INCOMPLETE": 356,
+      "COMPLETE": 152,
+      "NOT_APPLICABLE": 10
+    },
+    "steps": 3251,
+    "findings": {
+      "REPORT_REMAINING_RECORD": 384,
+      "REPORT_ACTIVE_DATA_FLOW": 113,
+      "REPORT_EXPOSED_PII": 199,
+      "REPORT_RESTORE_RISK": 26
+    },
+    "observations": 2912,
+    "files_with_observations": 94,
+    "files_cited": 66,
+    "account_linking": {
+      "no account in the activity stream": 10,
+      "account seen only in evidence": 2,
+      "identifier": 238,
+      "worker-run attribution": 258
+    },
+    "retained": {
+      "AUDIT_RECORD": 416,
+      "LEGAL_HOLD": 7
+    },
+    "retained_missing": 0,
+    "schedule_same_as_default": true,
+    "rules_unsure": [
+      "case_538"
+    ]
+  },
+  "exposures": {
+    "findings": {
+      "REPORT_REMAINING_RECORD": 384,
+      "REPORT_EXPOSED_PII": 199
+    },
+    "fields": {
+      "REPORT_EXPOSED_PII": {
+        "email (historical)": 32,
+        "email (current)": 166,
+        "phone (current)": 29,
+        "email_hash (current)": 31,
+        "name (current)": 4
+      },
+      "REPORT_REMAINING_RECORD": {
+        "email (current)": 230,
+        "user_id (stable reference)": 124,
+        "phone (current)": 24,
+        "email (historical)": 76,
+        "name (current)": 121
+      }
+    },
+    "lookup_only": {
+      "email (current)": 62,
+      "email (historical)": 14
+    },
+    "special": {
+      "fields not shown": 1,
+      "unlisted email": 1,
+      "unlisted phone": 1
+    },
+    "historical": {
+      "REPORT_REMAINING_RECORD": 90,
+      "REPORT_EXPOSED_PII": 32
+    }
+  },
+  "holdout": {
+    "learned": {
+      "accounts": {
+        "cases": 252,
+        "recovered": 244,
+        "wrong": 8,
+        "unassigned": 0
+      },
+      "rows": {
+        "7": {
+          "hidden_rows": 203,
+          "recovered": 164,
+          "missed": 37,
+          "wrong": 2
+        },
+        "11": {
+          "hidden_rows": 184,
+          "recovered": 149,
+          "missed": 33,
+          "wrong": 2
+        },
+        "23": {
+          "hidden_rows": 188,
+          "recovered": 147,
+          "missed": 41,
+          "wrong": 0
+        }
+      }
+    },
+    "default": {
+      "accounts": {
+        "cases": 252,
+        "recovered": 244,
+        "wrong": 8,
+        "unassigned": 0
+      },
+      "rows": {
+        "7": {
+          "hidden_rows": 203,
+          "recovered": 165,
+          "missed": 34,
+          "wrong": 4
+        },
+        "11": {
+          "hidden_rows": 184,
+          "recovered": 150,
+          "missed": 32,
+          "wrong": 2
+        },
+        "23": {
+          "hidden_rows": 188,
+          "recovered": 149,
+          "missed": 39,
+          "wrong": 0
+        }
+      }
+    }
+  },
+  "tests": {
+    "test_engine_rules": {
+      "passed": 46,
+      "failed": 0,
+      "exit_code": 0
+    },
+    "test_llm_adapters": {
+      "passed": 51,
+      "failed": 0,
+      "exit_code": 0
+    },
+    "test_compare_models": {
+      "passed": 17,
+      "failed": 0,
+      "exit_code": 0
+    }
+  },
+  "final_run": {
+    "provider": "gemini",
+    "calls": 28,
+    "tokens": 60542,
+    "cost": 0.102416,
+    "agreement": {
+      "agree": 517,
+      "disagree": 0,
+      "rules_only": 0,
+      "model_only": 1,
+      "unclassified": 0
+    },
+    "screenshots": {
+      "total": 11,
+      "unread": 0,
+      "model": 11,
+      "ocr": 0,
+      "cached": 0
+    }
+  },
+  "comparison": {
+    "gemini": {
+      "complete": true,
+      "calls": 16,
+      "failures": 0,
+      "seconds": 66.5
+    },
+    "groq": {
+      "complete": true,
+      "calls": 40,
+      "failures": 13,
+      "seconds": 1045.3
+    }
+  }
+}

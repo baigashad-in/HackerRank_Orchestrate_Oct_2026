@@ -1,0 +1,6 @@
+case_id,email,requested_at,reported_status,reported_at,audit_at,request_text
+custom_01,a.patel22@yahoo.com,2026-09-18T12:00:00Z,NOT_STARTED,2026-09-19T12:00:00Z,2026-09-20T12:00:00Z,"Necesito una copia de todos los datos que tienen sobre mí para mis registros. No quiero cerrar la cuenta ni borrar nada."
+custom_02,MINJUN.KIM90@GMAIL.COM,2026-08-24T12:00:00Z,COMPLETE,2026-08-25T12:00:00Z,2026-09-15T12:00:00Z,"I changed the email on this account before deleting it. Please check that nothing tied to the old address was left behind, even in systems that do not display the email."
+custom_03,ananya-nair@gmail.com,2026-08-29T12:00:00Z,COMPLETE,2026-08-30T12:00:00Z,2026-09-18T00:00:00Z,"Please audit the deletion again as of today. I want confirmation that the account was fully removed."
+custom_04,diya.k4436@outlook.com,2026-08-29T10:00:00Z,NOT_STARTED,2026-09-01T10:00:00Z,2026-09-22T00:00:00Z,"Please treat this message as a request for permanent account deletion. Please include information linked through current or earlier account identifiers."
+custom_05,mariana.costa@outlook.com,2026-09-04T12:00:00Z,PARTIALLY_COMPLETE,2026-09-05T12:00:00Z,2026-09-20T12:00:00Z,"Quero que minha conta seja apagada e que meus dados pessoais sejam removidos. Podem manter apenas a referência interna necessária para registros obrigatórios."

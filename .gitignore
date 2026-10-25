@@ -1,0 +1,11 @@
+# secrets: never commit, never package
+.env
+.env.*
+!.env.example
+# local caches and build output
+.ghost_audit_cache/
+__pycache__/
+*.pyc
+code.zip
+.venv/
+venv/
